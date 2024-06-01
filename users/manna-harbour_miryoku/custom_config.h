@@ -5,3 +5,10 @@
 
 #pragma once
 
+// The last mod-tap hold will be converted to the corresponding mod-tap tap if
+// another key on the same hand is tapped during the hold, unless a key on the
+// other hand is tapped first.
+#define BILATERAL_COMBINATIONS
+
+// Use command-x, c, and v for cut, copy, and paste.
+#define MIRYOKU_CLIPBOARD_MAC
